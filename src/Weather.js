@@ -58,7 +58,7 @@ export default function Weather(props) {
                         <div className="clearfix">
                             <img src={weatherData.iconUrl} alt={weatherData.description} className="float-left" />
                         <div className="float-left">
-                            <WeatherTemperature fahrenheit={props.data.temperature} />
+                            <WeatherTemperature fahrenheit={weatherData.temperature} />
                         </div>
                     </div>
                 </div>
